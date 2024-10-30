@@ -37,7 +37,6 @@ python-mysql-app/
 ├── requirements.txt         # Dependencies
 ├── Dockerfile               # Dockerfile for container build
 ├── charts/                  # Helm chart for deployment
-│   └── python-mysql-app/
 │       ├── Chart.yaml       # Helm chart metadata
 │       ├── values.yaml      # Configuration values
 │       ├── templates/       # Kubernetes templates
