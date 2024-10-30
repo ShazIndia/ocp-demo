@@ -1,0 +1,4 @@
+apiVersion: v2
+name: python-mysql-app
+description: A Helm chart for Python Flask with MySQL on OpenShift
+version: 0.1.0

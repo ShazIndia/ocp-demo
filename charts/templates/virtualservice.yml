@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: python-mysql-route
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - mesh  # Traffic will flow through the service mesh
+  http:
+  - route:
+    - destination:
+        host: python-mysql-service
+        port:
+          number: 80
+
