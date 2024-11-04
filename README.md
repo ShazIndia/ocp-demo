@@ -1,4 +1,4 @@
-Here’s a **README.md** for your GitHub repository. This README provides clear instructions for deploying the **Python Flask + MySQL app** on OpenShift with **Service Mesh** integration, Helm-based deployment, and secrets managed via **Azure Key Vault** or **HashiCorp Vault**.
+This README provides clear instructions for deploying the **Python Flask + MySQL app** on OpenShift with **Service Mesh** integration, Helm-based deployment, and secrets managed via **Azure Key Vault** or **HashiCorp Vault**.
 
 ---
 
